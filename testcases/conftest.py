@@ -9,7 +9,7 @@ username = "admin"
 password = "admin"
 baseURL = "http://localhost:5003/"
 chrome_path = "C:\\Downloads\\chromedriver.exe"
-
+test = 5
 
 @pytest.fixture(scope="session")
 def setup():
