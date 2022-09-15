@@ -3,6 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="f564cac6-8b7e-4384-8d60-04916b1766b5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_01LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_00LoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_02InfoPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_01InfoPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_03Settingspage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_06Settingspage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_04Switchpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_09Switchpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_05Labelpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_16Labelpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_06WorkflowPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_17WorkflowPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_09Splicepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_13Splicepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_10Connectionlistpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_14Connectionlistpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_11variablespage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_15variablespage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_12Systempage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_02Systempage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_13usermanagerpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_03usermanagerpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_14rolepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_04rolepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_15reportspage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_05reportspage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_Modulepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_07Modulepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_Variantpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_10Variantpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_picktolightpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_08picktolightpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_wirepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_12wirepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_xcodepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_11xcodepage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +38,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/RaghunathaCH/PycharmProjects/PushPullTouchFinal&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/RaghunathaCH/PycharmProjects/PushPullTouchFinal",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="PPT_Automation" type="PythonConfigurationType" factoryName="Python">
       <module name="PushPullTouchFinal" />
@@ -58,6 +78,18 @@
       <option name="presentableId" value="Default" />
       <updated>1663222512030</updated>
     </task>
+    <task id="LOCAL-00001" summary="test = 5">
+      <created>1663239286681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663239286681</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test = 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="test = 5" />
   </component>
 </project>

@@ -9,7 +9,6 @@ username = "admin"
 password = "admin"
 baseURL = "http://localhost:5003/"
 chrome_path = "C:\\Downloads\\chromedriver.exe"
-test = 5
 
 @pytest.fixture(scope="session")
 def setup():
@@ -20,8 +19,6 @@ def setup():
     yield driver
     time.sleep(2)
     driver.close()
-
-
 
 @pytest.fixture (scope="session")
 def user_login():
@@ -37,7 +34,6 @@ def user_login():
     time.sleep(2)
     yield driver
     driver.quit()
-
 
 @pytest.fixture(scope="session")
 def user_manager():
