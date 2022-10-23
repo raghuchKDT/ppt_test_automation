@@ -1,12 +1,12 @@
-from telnetlib import EC
-from selenium import webdriver
+# from telnetlib import EC
+# from selenium import webdriver
 import pytest
 import time
-from selenium.webdriver.common.by import By
+# from selenium.webdriver.common.by import By
 from PageObjectModules.LoginPage import Login
 
-class Test_001_Login:
 
+class Test_001_Login:
     baseURL = "http://localhost:5003/"
     username = "Dheeraj"
     password = "admin"
@@ -45,7 +45,6 @@ class Test_001_Login:
         time.sleep(2)
         assert "Required*" in self.driver.page_source
         # self.driver.close()
-
 
     def test_Empty_Password_Field(self, setup):
         self.driver = setup

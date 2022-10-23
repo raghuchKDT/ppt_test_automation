@@ -7,10 +7,11 @@ global driver
 username = "admin"
 password = "admin"
 baseURL = "http://localhost:5003/"
+chrome_path = "C:\\chromedriver.exe"
 
 @pytest.fixture(scope="module")
 def setup():
-    driver = webdriver.Chrome("C:\\Users\\KnoDTec - Dheeraj\\Downloads\\chromedriver.exe")
+    driver = webdriver.Chrome(chrome_path)
     time.sleep(2)
     driver.get(baseURL)
     driver.maximize_window()
@@ -22,7 +23,7 @@ def setup():
 def user_login():
     global driver
     print("-----------setup------------")
-    driver = webdriver.Chrome("C:\\Users\\KnoDTec - Dheeraj\\Downloads\\chromedriver.exe")
+    driver = webdriver.Chrome(chrome_path)
     driver.get(baseURL)
     driver.maximize_window()
     lp = Login(driver)
@@ -38,7 +39,7 @@ def user_login():
 def user_manager():
     global driver
     print("-----------setup------------")
-    driver = webdriver.Chrome("C:\\Users\\KnoDTec - Dheeraj\\Downloads\\chromedriver.exe")
+    driver = webdriver.Chrome(chrome_path)
     driver.get(baseURL)
     driver.maximize_window()
     lp = Login(driver)
